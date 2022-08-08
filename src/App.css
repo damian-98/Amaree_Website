@@ -3,23 +3,65 @@ body {
 }
 
 .AppTitle{
-  color:darksalmon;
+color:darksalmon;
 text-align: center;
-font-size: 100px;
+font-size: 80px;
 }
 
 .shopping-cart{
-  font-size: 40px;
+font-size: 35px;
+padding-top: 5px;
 position: absolute;
-  right: 0;
+right: 0;
+top: 0;
+}
+
+nav {
+  height: 5%;
+  float: none;
+  position: absolute;   
+  left: 85%;
+  transform: translate(-50%, -50%);
+  display:flex;
   top: 0;
+  padding-top:70px
+}
+
+li{
+  font-size: 25px;
+  padding-top:5px;
+  margin-left: 70px;
+  list-style: none;
+  position: relative;
+}
+
+a{
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
 }
 
 .footer-copyright {
   color: white;
   position: relative;
   text-align: center;
-  bottom: -700px;
+  bottom: -750px;
   font-family: "Cantarell";
   font-size: 15px;
 }
