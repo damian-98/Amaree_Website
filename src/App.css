@@ -24,7 +24,7 @@ nav {
   transform: translate(-50%, -50%);
   display:flex;
   top: 0;
-  padding-top:70px
+  padding-top:80px
 }
 
 li{
@@ -33,6 +33,7 @@ li{
   margin-left: 70px;
   list-style: none;
   position: relative;
+  font-weight: bold;
 }
 
 a{
