@@ -3,9 +3,8 @@ import React from "react";
 function Footer() {
   return (
     <footer className="footer-copyright">
-      <div>
+      <div className="footer-background">
         Copyright &copy; {new Date().getFullYear()} Beauty Bundles by A'maree
-        Wilford
       </div>
     </footer>
   );
