@@ -57,7 +57,7 @@ li{
   margin-left: 70px;
   list-style: none;
   position: relative;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 a{
@@ -86,7 +86,14 @@ nav a:hover::before {
   color: black;
   position: relative;
   text-align: center;
-  bottom: -90px;
+  bottom: -935px;
   font-family: "Cantarell";
   font-size: 15px;
+}
+
+.About-Page-Title{
+  color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Satisfy', cursive;
 }

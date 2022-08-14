@@ -1,33 +1,33 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { AiOutlineShoppingCart } from "react-icons/ai";
-// import { Link } from "react-router-dom";
 
-function navBar() {
+function Navbar() {
   return (
     <nav className="nav">
       <li>
-        <a href="/home">Home</a>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <a href="/menu">Menu</a>
+        <Link to="/menu">Menu</Link>
       </li>
       <li>
-        <a href="/images">Images</a>
+        <Link to="/images">Images</Link>
       </li>
       <li>
-        <a href="/contact">Contact</a>
+        <Link to="/contact">Contact</Link>
       </li>
       <li>
-        <a href="/about">About</a>
+        <Link to="/about">About</Link>
       </li>
       <li>
-        <a href="/checkout" className="shopping-cart">
+        <Link to="/checkout" className="shopping-cart">
           {" "}
           <AiOutlineShoppingCart />
-        </a>
+        </Link>
       </li>
     </nav>
   );
 }
 
-export default navBar;
+export default Navbar;
