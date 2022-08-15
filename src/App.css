@@ -5,7 +5,8 @@
 .App{
   background-color: palevioletred;
   border-radius: 5px;
-  height: 900px;
+  height: 920px;
+  margin-top: 58px;
 }
 
 .container{
