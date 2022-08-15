@@ -8,8 +8,13 @@ function Navbar() {
       <li>
         <Link to="/">Home</Link>
       </li>
-      <li>
-        <Link to="/menu">Menu</Link>
+      <li className="dropdown">
+        <button className="dropbtn">Menu</button>
+        <div className="dropdown-content">
+          <Link to="/braids">Braids</Link>
+          <Link to="/ponytail">Ponytail</Link>
+          <Link to="/curls">Curls</Link>
+        </div>
       </li>
       <li>
         <Link to="/images">Images</Link>
