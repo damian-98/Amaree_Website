@@ -58,27 +58,14 @@ a{
 nav a::before {
   content: '';
   display: block;
-  height: 2px;
+  height: 3.5px;
   background-color: #444;
   width: 0%;
   transition: all ease-in-out 250ms;
 }
 
 nav a:hover::before {
-  width: 90%;
-}
-
-nav button::after {
-  content: '';
-  display: block;
-  height: 2px;
-  background-color: #444;
-  width: 0%;
-  transition: all ease-in-out 250ms;
-}
-
-nav button:hover::before {
-  width: 90%;
+  width: 100%;
 }
 
 .footer-copyright {
