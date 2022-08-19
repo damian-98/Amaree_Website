@@ -1,8 +1,10 @@
 .App{
   background-color: palevioletred;
   border-radius: 5px;
-  height: 920px;
+  /* height: 920px; */
   margin-top: 58px;
+  min-height: 200vh;
+  /* background: url("./components/img/0629445A-D203-4D56-8702-C9641091A0EF.jpeg") no-repeat; */
 }
 
 .container{
@@ -20,8 +22,6 @@
   position: absolute;
   top: 0;
 }
-
-
 
 .Subtitle,h1{
 font-size: 70px;
@@ -80,15 +80,16 @@ nav li:hover::before {
 
 .footer-copyright {
   color: black;
-  position: relative;
+  position: absolute;
   text-align: center;
-  bottom: -935px;
+  bottom: -1223px;
   font-family: "Cantarell";
+  left: 1306px;
   font-size: 15px;
 }
 
 .About-Page-Title{
-  color: white;
+    color: white;
     text-align: center;
     font-size: 40px;
     font-family: 'Satisfy', cursive;
@@ -128,12 +129,19 @@ nav li:hover::before {
   display: block;
 }
 
-
 .about-section {
   padding: 50px;
   text-align: center;
   color: white;
 }
 
+.wrapper {
+  display: grid;
+  padding-top: 100px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 400px;
+  border-color: #444;
+  border: 30px;
+  cursor: pointer;
 
-
+}
