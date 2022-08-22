@@ -4,10 +4,9 @@ import images from "./img/0629445A-D203-4D56-8702-C9641091A0EF.jpeg";
 function Home() {
   return (
     <div>
-      <h1 className="AppTitle">Beauty Bundles</h1>
       <img
         src={images}
-        className="container background"
+        className="home-container "
         alt="mirror selfie"
         width="320"
         height="570"

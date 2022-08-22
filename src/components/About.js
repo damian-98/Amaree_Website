@@ -4,7 +4,7 @@ import Gif from "./img/IMG_0723.gif";
 function About() {
   return (
     <div>
-      <div class="about-section">
+      <div className="about-text-section">
         <h1>About</h1>
         <p>Some text about who we are and what we do.</p>
         <p>

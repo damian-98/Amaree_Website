@@ -5,7 +5,7 @@ import image3 from "./img/IMG_2034.jpeg";
 
 function Images() {
   return (
-    <div className="wrapper">
+    <div className="image-wrapper">
       <img
         src={image1}
         className="container"
