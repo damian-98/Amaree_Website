@@ -1,12 +1,25 @@
 import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 
 function Navbar() {
+  // const [isNavExpanded, setIsNavExpanded] = useState(false);
+
+  // let nav = document.getElementById("nav-toggle");
+  // if (nav.style.display == "" || nav.style.display == "block")
+  //   nav.style.display = "none";
+  // else nav.style.display = "block";
+
   return (
     <header>
       {" "}
-      <h1 className="nav-logo">Beauty Bundles</h1>
+      <li>
+        <Link to="/" className="nav-logo">
+          {" "}
+          Beauty Bundles
+        </Link>
+      </li>
       <input type="checkbox" id="nav-toggle" className="nav-toggle" />
       <nav>
         <ul>
@@ -32,7 +45,6 @@ function Navbar() {
           </li>
           <li>
             <Link to="/checkout" className="shopping-cart">
-              {" "}
               <AiOutlineShoppingCart />
             </Link>
           </li>

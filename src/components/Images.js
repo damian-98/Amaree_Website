@@ -5,28 +5,30 @@ import image3 from "./img/IMG_2034.jpeg";
 
 function Images() {
   return (
-    <div className="image-wrapper">
-      <img
-        src={image1}
-        className="container"
-        alt="mirror selfie"
-        width="520"
-        height="320"
-      ></img>
-      <img
-        src={image2}
-        className="container"
-        alt="mirror selfie"
-        width="520"
-        height="320"
-      ></img>
-      <img
-        src={image3}
-        className="container"
-        alt="mirror selfie"
-        width="520"
-        height="320"
-      ></img>
+    <div className="App">
+      <div className="image-wrapper">
+        <img
+          src={image1}
+          className="container"
+          alt="mirror selfie"
+          width="320"
+          height="320"
+        ></img>
+        <img
+          src={image2}
+          className="container"
+          alt="mirror selfie"
+          width="320"
+          height="320"
+        ></img>
+        <img
+          src={image3}
+          className="container"
+          alt="mirror selfie"
+          width="320"
+          height="320"
+        ></img>
+      </div>
     </div>
   );
 }

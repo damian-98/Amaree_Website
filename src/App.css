@@ -3,9 +3,16 @@ body {
   margin: 0px;
 }
 
+p{
+  margin-top: 300px;
+  margin-left: 620px;
+  text-align: center;
+  font-size: 30px;
+}
+
 .App{
   background-color: palevioletred;
-  min-height: 200vh;
+  min-height: 100vh;
 }
 
 .container{
@@ -15,6 +22,14 @@ body {
   box-shadow: 0px 5px 40px black;
   padding: 5px 5px;
   border-radius: 10px;
+}
+
+.home{
+  /* background-size: cover;
+    background-position: center; */
+  
+    min-height: 100vh;
+  background: url("./components/img/IMG_2101.jpeg") ;
 }
 
 .home-container{
@@ -29,6 +44,8 @@ body {
   margin-top:150px;
   margin-left: 30px; 
   position: absolute;
+  width:620;
+   height:770;
   top: 0;
 }
 
@@ -48,6 +65,12 @@ header  {
   color:#ff0080;
   font-size: 30px;
   font-family: 'Satisfy', cursive;
+  text-decoration: none;
+  list-style: none;
+}
+
+li, .shopping-cart{
+  list-style: none;
 }
 
 .shopping-cart{
@@ -62,6 +85,7 @@ nav {
   transform: scale(1,0);
   transform-origin: top;
   transition: transform 400ms ease-in-out;
+  
 }
 
 .nav-toggle{
@@ -76,7 +100,6 @@ nav {
   height: 100%;
   display:flex;
   align-items: center;
-
 }
 
 .nav-toggle-label span ,
@@ -116,9 +139,14 @@ nav ul{
 }
 
 nav li{
-  font-size: 25px;
+  font-size: 15px;
   padding-top:25px;
   margin-left: 70px;
+ 
+}
+
+li{
+  padding-top: 10px;
 }
 
 nav a{
@@ -133,6 +161,10 @@ nav a{
 .nav-toggle:checked ~ nav a {
   opacity: 1;
   transition:opacity 250ms  ease-in-out 250ms
+}
+
+.nav-toggle:checked~nav a {
+  display: block
 }
 
 nav a::before {
@@ -157,6 +189,7 @@ nav a:hover::before {
   width: 100%;
   height: 40px;
   background: white;   
+  z-index: 1;
 }
 
 .About-Page-Title{
@@ -206,6 +239,7 @@ nav a:hover::before {
   border-color: #444;
   border: 30px;
   cursor: pointer;
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -215,7 +249,7 @@ nav a:hover::before {
 
   header{
   display: grid;
-  grid-template-columns: 1fr auto minmax(100px, 1fr) 1fr;
+  grid-template-columns: 1fr auto minmax(100px, 2fr) 1fr;
 }
 
 .nav-logo{
@@ -233,7 +267,6 @@ nav ul{
 
 nav li{
   margin-left: 3em;
-  margin-bottom: 0;
 }
 
 nav a {
@@ -249,27 +282,75 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
   }
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  max-width: 150px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.85);
+
+
 }
 
-/* Links inside the dropdown */
-.dropdown-content a {
-  padding: 20px 20px;
-  /* text-decoration: none; */
-  display: block;
+@media screen and (max-width: 2000px) {
+
+     .about-picture {
+       margin-top: 110px;
+       /* margin-left: 10px; */
+      /* width: 20px; */
+       
+       /* position: absolute; */
+       /* top: 0; */
+
+        /* display: grid; */
+          /* padding-top: 10px; */
+          grid-template-columns: repeat(1, 2fr);
+          grid-auto-rows: 100px;
+          border-color: #444;
+          border: 30px;
+          cursor: pointer;
+     }
+
+
+/* .about-text-section {
+  font-size: 12px; 
+   padding-top:400px;
+  padding: 50px;
+  text-align: center;
+  color: white;
+} */
+
+.about-text-section {
+  font-size: 12px;
+
+  /* padding-bottom: 100px; */
+  text-align: center;
+  color: white;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: rgba(77, 73, 73, 0.27);
+/* h1{
+  margin-top:900px
+} */
+
+p{
+  font-size: 20px;
+margin-left: 25px  ;
+      margin-top: 750px
+ 
 }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-  }
+.home {
+  /* background-size: cover;
+    background-position: center; */
+
+  min-height: 100vh;
+  background: url("./components/img/IMG_2101.jpeg");
+}
+
+.image-wrapper {
+  display: grid;
+  padding-top: 120px;
+  grid-template-columns: repeat(1, 3fr);
+  grid-auto-rows: 400px;
+  border-color: #444;
+  border: 30px;
+  cursor: pointer;
+  min-height: 200vh;
+  
+}
+
 }
