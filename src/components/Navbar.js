@@ -3,6 +3,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import "../Navbar.css";
 
 function Navigationbar() {
   return (
@@ -14,10 +15,16 @@ function Navigationbar() {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ms-auto" id="nav">
           <Nav.Link href="/">Home</Nav.Link>
-          <NavDropdown title="Menu" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="/braids">Braids</NavDropdown.Item>
-            <NavDropdown.Item href="/ponytail">Ponytail</NavDropdown.Item>
-            <NavDropdown.Item href="/curls">Curls</NavDropdown.Item>
+          <NavDropdown title="Menu" id="nav-menu">
+            <NavDropdown.Item href="/braids" id="nav-dropdown">
+              Braids
+            </NavDropdown.Item>
+            <NavDropdown.Item href="/ponytail" id="nav-dropdown">
+              Ponytail
+            </NavDropdown.Item>
+            <NavDropdown.Item href="/curls" id="nav-dropdown">
+              Curls
+            </NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/images">Images</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>

@@ -1,0 +1,33 @@
+#nav {
+    align-items: center;
+    position: relative;
+}
+
+#nav-logo {
+    color: #ff0080;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    margin-left: 150px;
+}
+
+ #nav-toggle {
+ font-size: 15px;
+ margin-left: 15px;
+  position: absolute;
+    top: 20px;
+    /* left: .5em; */
+    left: 0;
+}
+
+#nav-dropdown:hover {
+    background-color: pink
+}
+
+#shopping-cart {
+    font-size: 30px;
+}
+
+a, #nav-menu {
+    width: 90%;
+    margin-right: 40px;
+}

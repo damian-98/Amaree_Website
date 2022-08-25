@@ -1,5 +1,6 @@
 import React from "react";
 import Gif from "./img/IMG_0723.gif";
+import "../Aboutpage.css";
 
 function About() {
   return (

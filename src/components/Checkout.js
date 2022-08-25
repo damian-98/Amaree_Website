@@ -1,9 +1,10 @@
 import React from "react";
+import "../Aboutpage.css";
 
 function Checkout() {
   return (
     <div className="App">
-      <div className="about-text-section">
+      <div id="About-Page-Title">
         <h1>Checkout</h1>
       </div>
     </div>

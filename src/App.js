@@ -9,14 +9,19 @@ import Images from "./components/Images";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import Checkout from "./components/Checkout";
-import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Navigate,
+  Routes,
+  Route,
+} from "react-router-dom";
 import "./App.css";
 
 function App() {
   return (
     <div>
       {" "}
-      <BrowserRouter>
+      <Router>
         {" "}
         <Navigationbar />
         <Footer />
@@ -31,7 +36,7 @@ function App() {
           <Route exact path="/checkout" element={<Checkout />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
-      </BrowserRouter>{" "}
+      </Router>{" "}
     </div>
   );
 }

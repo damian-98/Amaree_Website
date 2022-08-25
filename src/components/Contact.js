@@ -1,9 +1,10 @@
 import React from "react";
+import "../Aboutpage.css";
 
 function Contact() {
   return (
     <div className="App">
-      <div className="about-text-section">
+      <div id="About-Page-Title">
         <h1>Contact</h1>
       </div>
     </div>
