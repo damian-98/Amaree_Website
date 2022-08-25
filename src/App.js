@@ -1,5 +1,5 @@
 import React from "react";
-import Navigates from "./components/Navbar";
+import Navigationbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Braids from "./components/Braids";
@@ -18,7 +18,7 @@ function App() {
       {" "}
       <BrowserRouter>
         {" "}
-        <Navigates />
+        <Navigationbar />
         <Footer />
         <Routes>
           <Route exact path="/" element={<Home />} />

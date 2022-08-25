@@ -6,26 +6,26 @@ import image3 from "./img/IMG_2034.jpeg";
 function Images() {
   return (
     <div className="App">
-      <div className="image-wrapper">
+      <div id="image-wrapper">
         <img
           src={image1}
-          className="container"
+          id="container"
           alt="mirror selfie"
-          width="320"
+          width="420"
           height="320"
         ></img>
         <img
           src={image2}
-          className="container"
+          id="container"
           alt="mirror selfie"
-          width="320"
+          width="420"
           height="320"
         ></img>
         <img
           src={image3}
-          className="container"
+          id="container"
           alt="mirror selfie"
-          width="320"
+          width="420"
           height="320"
         ></img>
       </div>

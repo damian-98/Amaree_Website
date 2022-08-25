@@ -4,9 +4,7 @@ import Gif from "./img/IMG_0723.gif";
 function About() {
   return (
     <div className="App">
-      <div className="about-text-section">
-        {" "}
-        {/* <h1>About</h1> */}
+      <div id="about-text-section">
         <p>
           Some text about who we are and what we do. Resize the browser window
           to see that this page is responsive by the way. Resize the browser
@@ -21,7 +19,7 @@ function About() {
           is responsive by the way.
         </p>{" "}
       </div>
-      <div className="about-picture">
+      <div id="about-picture">
         <img src={Gif} alt="Posing Pic"></img>
       </div>
     </div>
