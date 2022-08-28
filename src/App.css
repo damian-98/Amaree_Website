@@ -40,24 +40,24 @@ body {
   }
 }
 
-@media screen and (max-width: 1050px) {
+/* @media screen and (max-width: 1050px) {
   #nav-logo {
     color: #ff0080;
     font-size: 30px;
     font-family: 'Satisfy', cursive;
     margin-left: 450px;
   }
-}
+} */
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
   #nav-logo {
   color: #ff0080;
   font-size: 30px;
   font-family: 'Satisfy', cursive;
   margin-left: 350px;
   }
-}
-
+} */
+/* 
 @media screen and (max-width: 950px) {
   #nav-logo {
     color: #ff0080;
@@ -65,22 +65,25 @@ body {
     font-family: 'Satisfy', cursive;
     margin-left: 350px;
   }
-}
+} */
 
-@media screen and (max-width: 900px) {
+
+
+@media screen and (max-width: 1000px) {
   #nav-logo {
     color: #ff0080;
     font-size: 30px;
     font-family: 'Satisfy', cursive;
-    margin-left: 300px;
+    margin-left: 20px;
+   
+
   }
 }
-
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   #nav-logo {
     color: #ff0080;
     font-size: 30px;
     font-family: 'Satisfy', cursive;
     margin-left: 150px;
   }
-}
+} */
