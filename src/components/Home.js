@@ -1,21 +1,8 @@
-// import React from "react";
-// // import images from "./img/0629445A-D203-4D56-8702-C9641091A0EF.jpeg";
-
-// function Home() {
-//   return (
-//     <div>
-//       <div className="home"></div>
-//     </div>
-//   );
-// }
-
-// export default Home;
-
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
 function Home() {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(7);
 
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
@@ -53,3 +40,16 @@ function Home() {
   );
 }
 export default Home;
+
+// import React from "react";
+// // import images from "./img/0629445A-D203-4D56-8702-C9641091A0EF.jpeg";
+
+// function Home() {
+//   return (
+//     <div>
+//       <div className="home"></div>
+//     </div>
+//   );
+// }
+
+// export default Home;
