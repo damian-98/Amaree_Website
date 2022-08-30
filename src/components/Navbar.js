@@ -7,11 +7,15 @@ import "../Navbar.css";
 
 function Navigationbar() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="light" fixed="top">
+    <Navbar collapseOnSelect expand="xl" bg="light" fixed="top">
       <Navbar.Brand href="/" id="nav-logo">
         Beauty Bundles
       </Navbar.Brand>
-      <Navbar.Toggle id="nav-toggle" />
+      <Navbar.Toggle id="navbar-toggler collapsed">
+        <span className="toggler-icon top-bar"></span>
+        <span className="toggler-icon middle-bar"></span>
+        <span className="toggler-icon bottom-bar"></span>
+      </Navbar.Toggle>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ms-auto" id="nav">
           <Nav.Link href="/">Home</Nav.Link>
