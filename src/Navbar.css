@@ -26,8 +26,9 @@
 
  a.nav-link:hover{
     text-decoration: underline;
+    text-underline-offset: 3px;
     text-decoration-color: rgba(0, 0, 0, 0.741);
-    text-decoration-thickness: 5px;
+    text-decoration-thickness: 3px;
  }
 
  .navbar-toggler{ 
