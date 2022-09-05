@@ -38,8 +38,16 @@ body {
   cursor: pointer;
   min-height: 200vh;
   }
+}
 
-    .dropdown:hover {
+@media screen and (max-width: 1200px) {
+  #nav-logo {
+    color: #ff0080;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    margin-left: 20px;
+  }   
+   .dropdown:hover {
       position: relative;
       display: inline-block;
       padding-bottom: 150px;
@@ -50,15 +58,6 @@ body {
 
     .dropdown-content a:hover { 
       width: 100%
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  #nav-logo {
-    color: #ff0080;
-    font-size: 30px;
-    font-family: 'Satisfy', cursive;
-    margin-left: 20px;
   }
 }
 
