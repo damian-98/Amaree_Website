@@ -46,32 +46,33 @@ body {
     font-size: 30px;
     font-family: 'Satisfy', cursive;
     margin-left: 20px;
-  }   
+  }
+     
    .dropdown:hover {
       position: relative;
-      display: inline-block;
       padding-bottom: 150px;
-      border-style: solid;
       align-items: center;
       width: 145px
     }
 
-    .dropdown-content a:hover { 
-      width: 100%
+    .dropdown-content  { 
+      width: 100%;
+      display: none;
+      border-style: solid; 
   }
 }
 
 @media screen and (max-width: 800px) {
   .dropdown:hover {
       position: relative;
-      display: inline-block;
       padding-bottom: 150px;
-      border-style: solid;
       align-items: center;
       width: 145px;
     }
 
-    .dropdown-content a:hover {
-      width: 100%
+    .dropdown-content  {
+      width: 100%;
+      display:none;
+      border-style: solid;
     }
   }
